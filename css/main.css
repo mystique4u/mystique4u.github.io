@@ -8,7 +8,7 @@
   }
   /* Navigation */
     
-.navigation li {
+li.navigation {
 
       display: block;
       float: left;
@@ -18,7 +18,7 @@
     transition-duration: 0.5s;
   }
     
-.navigation li a {
+li.navigation a {
     color: #333;
   }
   
@@ -27,7 +27,7 @@
       cursor: pointer;
   }
   
-.navigation ul li ul {
+ul.navigation li ul {
       background: #fff;
       visibility: hidden;
     opacity: 0;
@@ -39,14 +39,14 @@
     display: none;
   }
   
-.navigation ul li:hover > ul,
-.navigation ul li ul:hover {
+ul.navigation li:hover > ul,
+ul.navigation li ul:hover {
     visibility: visible;
     opacity: 1;
     display: block;
   }
   
-.navigation  ul li ul li {
+ul.navigation li ul li {
       clear: both;
     width: 100%;
   }
