@@ -25,6 +25,8 @@ nav {
 
 .logo-container > a {
     text-decoration: none;
+}
+.logo-container img {
     max-height: 30px;
 }
 
