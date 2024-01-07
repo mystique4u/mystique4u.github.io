@@ -76,3 +76,8 @@ nav {
       gap: 10vh;
     }
 }
+
+#hero {
+    background-color: blue;
+    min-height: 600px;
+}
