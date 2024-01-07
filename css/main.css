@@ -36,7 +36,7 @@ nav {
 }
 
 .navigation-items > a {
-    color: ghostwhite;
+    color: #333;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -44,14 +44,13 @@ nav {
 }
 
 .navigation-items > a:hover {
-    color: white;
+    color: #545454;
 }
 
 .hamburger {
     display: none;
     font-size: 20px;
     font-weight: 800;
-    color: white;
 }
 
 @media screen and (max-width:768px) {
@@ -69,7 +68,6 @@ nav {
       position: absolute;
       right: 0;
       top: 58px;
-      background-color: rgb(73, 51, 153);
       width: 100%;
       height: calc(100vh - 58px);
       padding-top: 60px;
@@ -78,7 +76,6 @@ nav {
 }
 
 #hero {
-    background-color: blue;
     min-height: 600px;
 }
 /* Hero Gradient Animation */
