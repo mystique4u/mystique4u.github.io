@@ -5,10 +5,12 @@
     font-family: 'Open Sans', sans-serif;
   }
 
+.container {
+    padding: 20px 0;
+}
   /* Navigation */
   .navigation-header {
     background-color: #fff;
-    padding: 0 15px;
     height: 60px;
     display: flex;
     justify-content: center;
