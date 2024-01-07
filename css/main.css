@@ -8,7 +8,7 @@
   }
   /* Navigation */
   body{
-    background-color:lightgrey;
+    background-color:#fff;
   }
   
   .hamburger-icon {
@@ -24,10 +24,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: darkslateblue;
   }
   .logo-text{
-    color:white;
+    color:#333;
   }
   
   .hamburger-icon{
@@ -37,7 +36,7 @@
   
   .hamburger-icon .fa-bars,
   .hamburger-icon .fa-x{
-    color:white;
+    color:#333;
     font-size:1rem;
     cursor:pointer;
   }
@@ -107,7 +106,7 @@
     transition:all 0.5s linear;
   }
   .container button{
-    color:white;
+    color:#333;
   }
 
   .container-lg {
