@@ -110,6 +110,9 @@
     color:white;
   }
 
+  .container-lg {
+    max-width: 1200px;
+  }
 #hero {
     min-height: 600px;
 }
