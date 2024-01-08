@@ -126,6 +126,12 @@ footer .socials {
 
 #hero {
     min-height: 600px;
+    padding: 10px 20px;
+}
+.halb {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
 }
 /* Hero Gradient Animation */
 .gradient-background {
