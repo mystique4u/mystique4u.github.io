@@ -112,6 +112,9 @@ footer {
   flex-direction: column;
   padding: 10px 20px;
 }
+footer .socials {
+  display: block;
+}
 
 #hero {
     min-height: 600px;
