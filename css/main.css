@@ -19,7 +19,7 @@
   }
   
   header {
-    background-color: #fff;
+    background-color: #fafafa;
     position:sticky;
     top:0;
     left:0;
@@ -113,7 +113,7 @@
   
   /* Content CSS */
 footer {
-  background-color: #fff;
+  background-color: #fafafa;
   width:100%;
   display: flex;
   justify-content: center;
