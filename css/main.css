@@ -81,7 +81,7 @@
       display: none;
     }
     .halb {
-      width: 100%;
+      width: 100% !important;
     }
     header:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
       margin-top: 1rem;
