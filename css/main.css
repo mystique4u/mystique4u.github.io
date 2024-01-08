@@ -76,7 +76,7 @@
     .fa-x{
       display:none;
     }
-    .socials a {
+    .socials {
       display: none;
     }
     header:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
@@ -95,10 +95,6 @@
     float: left;
     color: #333;
     margin: 0 5px;
-    display: block;
-    width: 24px;
-    height: 24px;
-    overflow: hidden;
   }
   
   /* Content CSS */
