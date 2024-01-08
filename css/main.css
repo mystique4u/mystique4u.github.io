@@ -104,10 +104,6 @@
   .container button{
     color:#333;
   }
-.container-lg {
-    width: 100%;
-    padding: 20px 0;
-}
 
 #hero {
     min-height: 600px;
