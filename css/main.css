@@ -156,10 +156,6 @@ footer .socials {
   color: #00f9c2;
 }
 
-.halb {
-  float: left;
-  padding: 5%;
-}
 /* Hero Gradient Animation */
 .gradient-background {
     background: linear-gradient(22deg,#0604ff,#0090e7,#00f9c2);
