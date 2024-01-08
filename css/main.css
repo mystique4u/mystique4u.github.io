@@ -134,16 +134,14 @@ footer .socials {
     overflow: hidden;
 }
 
-#hero h1{
+#hero h1 {
   color:#fff;
   text-transform: uppercase;
 }
-
 #hero h2 {
   color: #fff;
   text-transform: uppercase;
 }
-
 #hero p {
   color: #fff;
   padding-top: 10px;
@@ -156,7 +154,7 @@ footer .socials {
 }
 /* Hero Gradient Animation */
 .gradient-background {
-    background: linear-gradient(22deg,#0604ff,);
+    background: linear-gradient(22deg,#0604ff,#0090e7,#00f9c2);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
 }
