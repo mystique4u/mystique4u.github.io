@@ -131,6 +131,10 @@ footer .socials {
     min-height: 600px;
     padding: 10px 20px;
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #hero h1 {
