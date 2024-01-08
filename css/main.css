@@ -8,7 +8,7 @@
   }
   /* Navigation */
     
-li.navigation {
+nav li {
 
       display: block;
       float: left;
@@ -18,7 +18,7 @@ li.navigation {
     transition-duration: 0.5s;
   }
     
-li.navigation a {
+nav li a {
     color: #333;
   }
   
