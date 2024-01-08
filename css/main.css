@@ -95,24 +95,19 @@
     display:grid;
     place-items:center;
   }
-  .container:nth-child(1){
-    margin-top:0;
-  }
   
   .container p{
     text-align:center;
     font-size:3rem;
     color:white;
-    text-shadow:2px 2px black;
-    transition:all 0.5s linear;
   }
   .container button{
     color:#333;
   }
+.container-lg {
+    max-width: 1000px;
+}
 
-  .container-lg {
-    max-width: 1200px;
-  }
 #hero {
     min-height: 600px;
 }
