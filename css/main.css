@@ -139,6 +139,11 @@ footer .socials {
   text-transform: uppercase;
 }
 
+#hero p {
+  color: #fff;
+  padding-top: 10px;
+}
+
 .halb {
   width: 50%;
   float: left;
