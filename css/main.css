@@ -120,7 +120,9 @@ footer .socials {
  img.rounded-border {
   border-radius: 50%;
   border: 5px solid #fff;
- }
+  width: 100%;
+  height: auto;
+}
 
 #hero {
     min-height: 600px;
