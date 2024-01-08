@@ -129,9 +129,8 @@ footer .socials {
     padding: 10px 20px;
 }
 .halb {
-  display: flex;
-  flex-direction: row;
   width: 50%;
+  float: left;
 }
 /* Hero Gradient Animation */
 .gradient-background {
