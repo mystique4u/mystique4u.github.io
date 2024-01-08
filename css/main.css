@@ -161,7 +161,6 @@ img.rounded-border {
 }
 
 #hero {
-	min-height: 100vh;
 	padding: 10px 20px;
 	overflow: hidden;
 	display: flex;
