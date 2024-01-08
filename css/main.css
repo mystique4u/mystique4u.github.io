@@ -88,6 +88,9 @@
     }
   }
   
+  .socials a {
+    float: left;
+  }
   
   /* Content CSS */
   .container{
