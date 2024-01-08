@@ -56,6 +56,7 @@
   }
   .navigation a{
     color: #333;
+    font-weight: 700;
   }
   
   /* Responsive */
@@ -146,6 +147,10 @@ footer .socials {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+#page {
+  padding: 10px 20px;
+  overflow: hidden;
 }
 
 #hero h1 {
