@@ -156,6 +156,21 @@ footer .socials {
   float: left;
   padding: 10%;
 }
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
 /* Hero Gradient Animation */
 .gradient-background {
     background: linear-gradient(22deg,#0604ff,#0090e7,#00f9c2);
