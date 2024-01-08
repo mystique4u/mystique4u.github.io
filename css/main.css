@@ -9,6 +9,9 @@
   /* Navigation */
   body{
     background-color:#fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
   
   .hamburger-icon {
@@ -114,6 +117,7 @@ footer {
   padding: 10px 30px;
   gap: 1.25rem;
   min-height: 130px;
+  margin-top: auto;
 }
 footer .socials {
   display: block;
@@ -157,21 +161,6 @@ footer .socials {
   width: 50%;
   float: left;
   padding: 7%;
-}
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-#content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
-}
-
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;            /* Footer height */
 }
 /* Hero Gradient Animation */
 .gradient-background {
