@@ -80,8 +80,8 @@
     .socials {
       display: none;
     }
-    .halb {
-      width: 100% !important;
+    #hero {
+      flex-direction: column !important;
     }
     header:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
       margin-top: 1rem;
