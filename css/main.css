@@ -15,7 +15,7 @@
     display: none;
   }
   
-  header, footer {
+  header {
     background-color: #fff;
     position:sticky;
     top:0;
@@ -101,6 +101,17 @@
   }
   
   /* Content CSS */
+footer {
+  background-color: #fff;
+  top:0;
+  left:0;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 20px;
+}
 
 #hero {
     min-height: 600px;
