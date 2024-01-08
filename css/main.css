@@ -76,7 +76,7 @@
     .fa-x{
       display:none;
     }
-    .socials {
+    .socials a {
       display: none;
     }
     header:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
