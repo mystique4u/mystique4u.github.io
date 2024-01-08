@@ -95,6 +95,7 @@
     float: left;
     color: #333;
     margin: 10px 0;
+    display: block;
   }
   
   /* Content CSS */
