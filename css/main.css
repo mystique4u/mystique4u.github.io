@@ -130,7 +130,7 @@ footer .socials {
 }
 
 #hero {
-    min-height: 600px;
+    min-height: 100vh;
     padding: 10px 20px;
     overflow: hidden;
     display: flex;
