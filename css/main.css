@@ -116,7 +116,6 @@ footer {
   flex-direction: column;
   padding: 10px 30px;
   gap: 1.25rem;
-  min-height: 130px;
   margin-top: auto;
 }
 footer .socials {
