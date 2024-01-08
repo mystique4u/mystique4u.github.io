@@ -15,7 +15,7 @@
     display: none;
   }
   
-  header {
+  header, footer {
     background-color: #fff;
     position:sticky;
     top:0;
