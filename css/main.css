@@ -1,202 +1,229 @@
 * {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-decoration:none;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-  }
-  /* Navigation */
-  body{
-    background-color:#fff;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .hamburger-icon {
-    display: none;
-  }
-  
-  header {
-    background-color: #fafafa;
-    position:sticky;
-    top:0;
-    left:0;
-    width:100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 20px;
-  }
-  .logo-text{
-    color:#333;
-    font-size: 1.25rem;
-  }
-  
-  .hamburger-icon{
-    border:none;
-    background-color:transparent;
-  }
-  
-  .hamburger-icon .fa-bars,
-  .hamburger-icon .fa-x{
-    color:#333;
-    font-size:1rem;
-    cursor:pointer;
-  }
-  
-  .hamburger-icon input[type="checkbox"] {
-    appearance: none;
-  }
-  
-  .navigation {
-    display: flex;
-    gap: 1rem;
-  }
-  .navigation a{
-    color: #333;
-    font-weight: 700;
-  }
-  
-  /* Responsive */
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
 
-  @media screen and (max-width: 600px) {
-    header {
-      display: block;
-    }
-    .navigation {
-      height:0;
-      overflow:hidden;
-      flex-direction: column;
-      align-items: center;
-      transition:all 0.5s ease-in-out;
-    }
-    .logo {
-      display: flex;
-      justify-content: space-between;
-    }
-    .hamburger-icon {
-      display: block;
-    }
-    .fa-x{
-      display:none;
-    }
-    .socials {
-      display: none;
-    }
-    #hero {
-      flex-direction: column !important;
-    }
-    .greet {
-      font-size: 1rem !important;
-    }
-    header:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
-      margin-top: 1rem;
-      height:150px;
-    }
-    header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
-      display:none;
-    }
-    header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-x {
-      display:inline-block;
-    }
-  }
-  .logo-text a {
-    color: #333;
-  }
-  .socials a {
-    float: left;
-    color: #333;
-    margin: 0 5px;
-  }
-  
-  /* Content CSS */
+/* Navigation */
+body {
+	background-color: #fff;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.hamburger-icon {
+	display: none;
+}
+
+header {
+	background-color: #fafafa;
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px 20px;
+}
+
+.logo-text {
+	color: #333;
+	font-size: 1.25rem;
+}
+
+.hamburger-icon {
+	border: none;
+	background-color: transparent;
+}
+
+.hamburger-icon .fa-bars,
+.hamburger-icon .fa-x {
+	color: #333;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.hamburger-icon input[type="checkbox"] {
+	appearance: none;
+}
+
+.navigation {
+	display: flex;
+	gap: 1rem;
+}
+
+.navigation a {
+	color: #333;
+	font-weight: 700;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 600px) {
+	header {
+		display: block;
+	}
+
+	.navigation {
+		height: 0;
+		overflow: hidden;
+		flex-direction: column;
+		align-items: center;
+		transition: all 0.5s ease-in-out;
+	}
+
+	.logo {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.hamburger-icon {
+		display: block;
+	}
+
+	.fa-x {
+		display: none;
+	}
+
+	.socials {
+		display: none;
+	}
+
+	#hero {
+		flex-direction: column !important;
+	}
+
+	.greet {
+		font-size: 1rem !important;
+	}
+
+	header:has(.hamburger-icon input[type="checkbox"]:checked) .navigation {
+		margin-top: 1rem;
+		height: 150px;
+	}
+
+	header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-bars {
+		display: none;
+	}
+
+	header:has(.hamburger-icon input[type="checkbox"]:checked) .fa-x {
+		display: inline-block;
+	}
+}
+
+.logo-text a {
+	color: #333;
+}
+
+.socials a {
+	float: left;
+	color: #333;
+	margin: 0 5px;
+}
+
+/* Content CSS */
 footer {
-  background-color: #fafafa;
-  width:100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 20px;
-  gap: 1.25rem;
-  margin-top: auto;
+	background-color: #fafafa;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+	gap: 1.25rem;
+	margin-top: auto;
 }
+
 footer .socials {
-  display: block;
+	display: block;
 }
- img.rounded-border {
-  border-radius: 50%;
-  border: 10px solid #fff;
-  width: 100%;
-  height: auto;
-  box-shadow: 0px 0px 10px #222;
+
+img.rounded-border {
+	border-radius: 50%;
+	border: 10px solid #fff;
+	width: 100%;
+	height: auto;
+	box-shadow: 0px 0px 10px #222;
 }
-.me-photo, .greet {
-  padding: 8%;
-}
+
+.me-photo,
 .greet {
-  font-size: 1.25rem;
+	padding: 8%;
 }
+
+.greet {
+	font-size: 1.25rem;
+}
+
 #hero {
-    min-height: 100vh;
-    padding: 10px 20px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+	min-height: 100vh;
+	padding: 10px 20px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
 }
+
 #page {
-  padding: 30px 20px;
-  overflow: hidden;
+	padding: 30px 20px;
+	overflow: hidden;
 }
 
 #page p {
-  padding: 20px 0;
+	padding: 20px 0;
 }
 
 #page a {
-  color: #0090e7;
+	color: #0090e7;
 }
 
 #page h2 {
-  padding-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 #hero h1 {
-  color:#fff;
-  text-transform: uppercase;
+	color: #fff;
+	text-transform: uppercase;
 }
+
 #hero h2 {
-  color: #fff;
-  text-transform: uppercase;
-  margin-top: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 20px;
 }
+
 #hero p {
-  color: #fff;
-  padding-top: 10px;
+	color: #fff;
+	padding-top: 10px;
 }
+
 #hero a {
-  color: #00f9c2;
+	color: #00f9c2;
 }
 
 /* Hero Gradient Animation */
 .gradient-background {
-    background: linear-gradient(22deg,#0604ff,#0090e7,#00f9c2);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
+	background: linear-gradient(22deg, #0604ff, #0090e7, #00f9c2);
+	background-size: 180% 180%;
+	animation: gradient-animation 18s ease infinite;
 }
-  
+
 @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
 }
