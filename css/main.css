@@ -91,7 +91,9 @@
       display:inline-block;
     }
   }
-  
+  .logo-text a {
+    color: #333;
+  }
   .socials a {
     float: left;
     color: #333;
